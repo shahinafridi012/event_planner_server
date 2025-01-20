@@ -15,7 +15,7 @@ const client = new MongoClient(uri, {
 
 // Middleware
 app.use(cors({
-  origin: "https://event-c9br.vercel.app", // Vercel frontend
+  origin: "https://event-planner-server-w3vy.vercel.app", // Vercel frontend
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
