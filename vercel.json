@@ -5,6 +5,14 @@
   ],
   "routes": [
     {
+      "src": "/favicon.ico",
+      "dest": "/public/favicon.ico"
+    },
+    {
+      "src": "/admin",
+      "dest": "/admin.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.js"
     }
